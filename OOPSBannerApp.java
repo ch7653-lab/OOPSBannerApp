@@ -1,26 +1,61 @@
-class OOPSBannerApp {
+/**
+ * OOPSBannerApp
+ * Prints OOPS banner using String.join()
+ * @author CHARAN TEJ
+ * @version 3.0
+ */
+public class OOPSBannerApp {
 
     public static void main(String[] args) {
 
-        // Line 1
-        System.out.println("  *****  " + "  *****  " + " ******* " + " ******* ");
+        String line1 = String.join("   ",
+                " ***** ",
+                " ***** ",
+                " ***** ",
+                " ***** ");
 
-        // Line 2
-        System.out.println(" **   ** " + " **   ** " + " **    **" + " **      ");
+        String line2 = String.join("   ",
+                "*     *",
+                "*     *",
+                "*     *",
+                "*      ");
 
-        // Line 3
-        System.out.println("**     **" + "**     **" + "**     **" + "**       ");
+        String line3 = String.join("   ",
+                "*     *",
+                "*     *",
+                "*     *",
+                "*      ");
 
-        // Line 4
-        System.out.println("**     **" + "**     **" + "******** " + " ******  ");
+        String line4 = String.join("   ",
+                "*     *",
+                "*     *",
+                " ***** ",
+                " ***** ");
 
-        // Line 5
-        System.out.println("**     **" + "**     **" + "**       " + "      ** ");
+        String line5 = String.join("   ",
+                "*     *",
+                "*     *",
+                "*      ",
+                "      *");
 
-        // Line 6
-        System.out.println(" **   ** " + " **   ** " + "**       " + " **   ** ");
+        String line6 = String.join("   ",
+                "*     *",
+                "*     *",
+                "*      ",
+                "      *");
 
-        // Line 7
-        System.out.println("  *****  " + "  *****  " + "**       " + "  *****  ");
+        String line7 = String.join("   ",
+                " ***** ",
+                " ***** ",
+                "*      ",
+                " ***** ");
+
+        System.out.println(line1);
+        System.out.println(line2);
+        System.out.println(line3);
+        System.out.println(line4);
+        System.out.println(line5);
+        System.out.println(line6);
+        System.out.println(line7);
     }
 }
